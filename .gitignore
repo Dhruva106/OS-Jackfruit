@@ -1,0 +1,21 @@
+# Large files
+*.deb
+*.tar.gz
+*.tar.gz.*
+
+# rootfs
+rootfs-alpha/
+rootfs-beta/
+rootfs-base/
+
+# build files
+*.o
+*.ko
+*.mod
+*.cmd
+*.symvers
+modules.order
+
+# logs
+*.log
+boilerplate/logs/
